@@ -17,7 +17,7 @@ function subRodape() {
 subRodape();
 function iconesPrimeiraDiv(div1) {
   let iconeMidia = document.createElement("img");
-  iconeMidia.setAttribute("src", "./img/icones-midia.png");
+  iconeMidia.setAttribute("src", "./img/icones.png");
   div1.appendChild(iconeMidia);
 }
 
