@@ -23,7 +23,7 @@ function logo(nav, div) {
 
 function icone(nav, div) {
   let imagem = document.createElement("img");
-  imagem.setAttribute("src", "./icones/vector.png");
+  imagem.setAttribute("src", "./icones/Vector.png");
   div.appendChild(imagem);
   nav.appendChild(div);
 }
