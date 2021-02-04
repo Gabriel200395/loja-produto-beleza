@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  .menus {
+    padding: 0px 0px 0px 0px;
+  }
+
+  #banner img {
+    height: 190px;
+    object-fit: cover;
+  }
+
+  #rodape {
+    height: 360px;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  #rodape .segunda-div {
+    margin: 9px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #rodape .primeira-div {
+    margin: 45px 40px;
+  }
+  #rodape .segunda-div .form {
+    flex-direction: column;
+    align-items: end;
+  }
+  #rodape .segunda-div .form button {
+    width: 100%;
+  }
+  #rodape .segunda-div .form input {
+    width: 100%;
+  }
+
+  #sub-rodape .primeiros-icones {
+    margin: 20px 27px;
+  }
+
+  .informacao-produtos {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .informacao-produtos p {
+    margin: 20px 0px;
+  }
+
+  .informacao-produtos span {
+    margin: 20px 0px;
+  }
+}

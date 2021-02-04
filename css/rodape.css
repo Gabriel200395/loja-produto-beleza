@@ -3,7 +3,6 @@
   height: 250px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 #rodape .primeira-div {
@@ -61,12 +60,24 @@
 #sub-rodape {
   display: flex;
   justify-content: space-between;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  height: 64px;
+  border-top: 0.2px solid #a5a1a1;
 }
 
 #sub-rodape .primeiros-icones {
-  margin: 0px 40px;
+  margin: 20px 40px;
+}
+
+.primeiros-icones img {
+  height: 30px;
 }
 
 #sub-rodape .form-de-pagamento {
-  margin: 0px 40px;
+  margin: 20px 40px;
+}
+
+.form-de-pagamento img {
+  height: 30px;
 }
